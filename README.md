@@ -122,9 +122,9 @@ runs use 30 epochs each — see caveat below).
 
 | Model | Params | Test Accuracy | Model Size | Sparsity |
 |---|---|---|---|---|
-| ResNet34 Teacher (FP32) | 21,282,122 | ≈95.3% | — | — |
-| ResNet18 Baseline (FP32, no KD) | 11,173,962 | ≈95.1% | 42.63 MB | — |
-| ResNet18 Ternary Student (KD+QAT) | 11,173,962 | ≈94.2–94.3% | 2.66 MB | see `results/comparison_table.csv` |
+| ResNet34 Teacher (FP32) | 21,282,122 | 95.0% | — | — |
+| ResNet18 Baseline (FP32, no KD) | 11,173,962 | 95.1% | 42.63 MB | — |
+| ResNet18 Ternary Student (KD+QAT) | 11,173,962 | 94.63% | 2.66 MB | see `results/comparison_table.csv` |
 
 - **Parameter count is identical** between the baseline and the ternary
   student (0.00% "parameter reduction") — this is expected, not a bug.

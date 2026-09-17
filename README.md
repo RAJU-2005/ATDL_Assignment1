@@ -88,8 +88,6 @@ guaranteed, per standard PyTorch non-determinism caveats).
 4. ResNet — https://www.geeksforgeeks.org/deep-learning/residual-networks-resnet-deep-learning/
 5. Teacher–Student models — https://amit-s.medium.com/everything-you-need-to-know-about-knowledge-distillation-aka-teacher-student-model-d6ee10fe7276
 
-Full academic citations are in Section 14 of the report.
-
 ---
 
 ## 4. Running the notebooks end-to-end
